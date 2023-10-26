@@ -22,3 +22,12 @@ public:
         return ans;
     }
 };
+
+/*
+step 1:- Create an unorderd map
+step 2:- map every roman letter with integer number
+step 3:- create ans variable to store answer
+step 4:- if m[s[i]] < m[s[i+1]] then minus it from ans
+step 5:- else add it to the ans directly
+step 6:- finally return the ans;
+*/
